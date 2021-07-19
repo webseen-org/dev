@@ -1,0 +1,1647 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta property="og:url" content="https://www.codechef.com/problems/challenge/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Challenge | CodeChef" />
+<meta property="og:image" content="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png" />
+<meta property="og:description" content="Challenge | CodeChef" />
+<meta property="fb:app_id" content="191217060453" />
+<meta name='robots' content='index, follow' />  <link rel='canonical' href='https://www.codechef.com/problems/challenge'>  <!-- Errorception -->
+        <script>
+            (function(_,e,rr,s){_errs=[s];var c=_.onerror;_.onerror=function(){var a=arguments;_errs.push(a);
+              c&&c.apply(this,a)};var b=function(){var c=e.createElement(rr),b=e.getElementsByTagName(rr)[0];
+                c.src="//beacon.errorception.com/"+s+".js";c.async=!0;b.parentNode.insertBefore(c,b)};
+                _.addEventListener?_.addEventListener("load",b,!1):_.attachEvent("onload",b)})
+            (window,document,"script","4e7c8fce06a9ab05530008e5");
+          </script>
+          <!--End Errorception -->
+<!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TV5X2M');</script>
+        <!-- End Google Tag Manager -->
+<!-- Facebook Pixel Code -->
+            <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+             fbq('init', '2444182835820350'); 
+            fbq('track', 'PageView');
+            </script>
+            <noscript>
+             <img height="1" width="1" 
+            src="https://www.facebook.com/tr?id=2444182835820350&ev=PageView
+            &noscript=1"/>
+            </noscript>
+            <!-- End Facebook Pixel Code -->
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-WFQ23G3"></script>    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <title>Challenge | CodeChef</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="programming, language, algorithm, contest, contester, Java, C#, Pascal, C, C++, python, ruby, caml, ocaml, perl, haskell, lisp, prolog, fortran, assembler, asembler, functional, online, judge, problem, problemset, ACM" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/jquery-popup-overlay/popupoverlay.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/css/modal.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/codechef_todo/css/todo_notification.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/nice_menus/nice_menus.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/custom_nice_menus.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/tableofcontents/tableofcontents.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/taxonomy_list/taxonomy_list.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contest_page/menubar.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contest_page/css/contest_page.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/jquery-ui-1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/submission.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/em/components/datatable/css/datatable.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/style.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/fbconnectstyle.css?B" />
+    <link type="text/css" rel="stylesheet" media="all"
+          href="/sites/all/themes/abessive/new-login-bar.css?v=dd37a2bdd7b778be12ba5aa58e7f429d"/>
+  <script type="text/javascript" src="/misc/jquery.js?B"></script>
+<script type="text/javascript" src="/misc/drupal.js?B"></script>
+<script type="text/javascript" src="/misc/jquery-popup-overlay/popupoverlay.js?B"></script>
+<script type="text/javascript" src="/em/libs/cryptojs/aes.js?B"></script>
+<script type="text/javascript" src="/em/libs/common/common.js?v=ffe5c638567311b5b31e51d94fe2c820?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_common_functions/js/localStorage.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_common_functions/js/keybinding.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_common_functions/js/codechefGenericModal.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_common_functions/codechef_common_functions.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_todo/js/todo_notification.js?v=a8253739a788cd63fcebab40380b636f?B"></script>
+<script type="text/javascript" src="/sites/all/modules/fbmod/js/fb_sdk.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/nice_menus/nice_menus.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/tableofcontents/jquery.scrollTo-min.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/tableofcontents/jquery.localscroll-min.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/tableofcontents/tableofcontents.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/contest_page/js/contest_page.js?B"></script>
+<script type="text/javascript" src="/misc/jquery1.7.js?B"></script>
+<script type="text/javascript" src="/misc/jquery-ui-1.10.0/js/jquery-ui-1.10.0.custom.min.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/problem_status/problemstatus.js?v=22e06515428208e68d55e7453e0de81c?B"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","username":null});
+//--><!]]>
+</script>
+
+  <script type="text/javascript" src="/misc/jquery-carousel.js"></script>
+  <link type="text/css" rel="stylesheet" media="all" href="/misc/jquery.growl.css" />
+  <script type="text/javascript" src="/misc/jquery.growl.js"></script>
+</head>
+<body >
+  <script>window.csrfToken = '20b687a60529d99925b828ab92873265a5858d19126d9a86ebc71366f0a87ff1';</script><!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TV5X2M"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->    <center>
+
+    <div class="header-container">
+      <div id="header" class="wrapper">
+        <div class="inner-wrapper">
+          <!-- Header -->
+          <div id="logo-floater" class="cols-2">
+            <a href="/" title=""><img src="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.svg" alt="CodeChef is a competitive programming community" id="logo" /><span></span></a>          </div>
+                    <div class="cols-2">
+            <div id="custom-login">
+              <div id="user-bar"><form action="/problems/challenge/"  accept-charset="UTF-8" method="post" id="new-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="60" value="" class="form-text required new-input" placeholder="Username" tabIndex="1" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="128"  size="60"  class="form-text required new-input" placeholder="Password" tabIndex="2" />
+</div>
+<input type="hidden" name="csrfToken" id="edit-csrfToken" value="20b687a60529d99925b828ab92873265a5858d19126d9a86ebc71366f0a87ff1"  />
+<a href="/user/password" tabIndex="4">Forgot Password</a><input type="hidden" name="form_build_id" id="form-poS_JMaVHFNqTWbfsc8TQtiCSlL1d_E-6kV-JJdTLnQ" value="form-poS_JMaVHFNqTWbfsc8TQtiCSlL1d_E-6kV-JJdTLnQ"  />
+<input type="hidden" name="form_id" id="edit-new-login-form" value="new_login_form"  />
+<input type="submit" name="op" id="edit-submit" value="Login"  class="form-submit btn new-input-button" tabIndex="3" />
+
+</div></form>
+</div><div id="facebook-login"><script type="text/javascript">
+    String.prototype.capitalize = function() {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    };
+    disconnectOauth = function (event, account, username) {
+        if (event != undefined) {
+            event.preventDefault();
+        }
+        disconnect = () => {
+            clearUserCache();
+            $.ajax({
+                url: '/OAuth/' + account,
+                type: 'DELETE',
+                headers: {'x-csrf-token': window.csrfToken},
+                success: function () {
+                    window.location.reload();
+                },
+                error: function () {
+                    invokeGenericModal({
+                        areAllAllowed: true,
+                        message: "Couldn't complete your request. Please try again.",
+                        id: account + '-error-message'
+                    });
+                }
+            });
+        }
+        showDrupalConfirmBox(`Are you sure you want to disconnect ${account.capitalize()} account? <br /><br />
+            For hassle free login, please make sure you have
+            <a href='/users/${username}/edit#login_info' style='text-decoration: underline'> set a password</a>
+            before disconnecting.`,
+            disconnect
+        );
+    };
+
+    connectOauth = function (event, url) {
+        if (event != undefined) {
+            event.preventDefault();
+        }
+        clearUserCache();
+        cAjax({
+            url: url,
+            type: 'POST',
+            success: function (res) {
+                if (res.url) {
+                    window.location.href = res.url;
+                }
+            },
+            error: function (err) {
+                invokeGenericModal({
+                    areAllAllowed: true,
+                    message: err.message || "Couldn't complete your request. Please try again.",
+                    id: 'oauth-connect-error-message'
+                });
+            }
+        });
+    };
+</script>
+<div id="oauth-buttons" class="oauth-buttons-header">
+    <li>
+                <a
+                    class='icon-social oauth_button oauth_button-small connect'
+                    title='Signup/Login with Google'
+                    id='button_google' onclick = "connectOauth(event, '/OAuth/google')"
+                >
+                </a>
+            </li><li>
+                <a
+                    class='icon-social oauth_button oauth_button-small connect'
+                    title='Signup/Login with Github'
+                    id='button_github' onclick = "connectOauth(event, '/OAuth/github')"
+                >
+                </a>
+            </li><li>
+                <a
+                    class='icon-social oauth_button oauth_button-small connect'
+                    title='Signup/Login with Facebook'
+                    id='button_facebook' onclick = "connectOauth(event, '/fb/auth?src=problems%2Fchallenge%2F');"
+                >
+                </a>
+            </li></div>
+</div><div class='signup'><a href='/signup' class='new-input-button btn'>New User</a></div>                          </div>
+
+            <div id="block-nice_menus-1" class="block block-nice_menus block-header">
+  <div class="content">
+        <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li id="menu-302" class="menuparent menu-path-https--www.codechef.com-problems-school-itm_mediumnavmenuitm_campaignproblems_head"><a href="https://www.codechef.com/problems/school/?itm_medium=navmenu&amp;itm_campaign=problems_head" title="">PRACTICE &amp; LEARN</a><ul><li id="menu-5215" class="menu-path-https--www.codechef.com-ideitm_mediumnavmenuitm_campaignide"><a href="https://www.codechef.com/ide?itm_medium=navmenu&amp;itm_campaign=ide" title="">Code, Compile &amp; Run (IDE)</a></li>
+<li id="menu-10000" class="menu-path-https--unacademy.codechef.com-itm_mediumnavmenuitm_campaignlearncp"><a href="https://unacademy.codechef.com/?itm_medium=navmenu&amp;itm_campaign=learncp" title="">Learn CP</a></li>
+<li id="menu-9737" class="menu-path-https--www.codechef.com-AIMICPCitm_mediumnavmenuitm_campaignAIMICPC"><a href="https://www.codechef.com/AIMICPC?itm_medium=navmenu&amp;itm_campaign=AIMICPC" title="">AIM ICPC Learning Series</a></li>
+<li id="menu-9424" class="menu-path-https--www.codechef.com-LEARNDSA-itm_mediumnavmenuitm_campaignlearndsa"><a href="https://www.codechef.com/LEARNDSA/?itm_medium=navmenu&amp;itm_campaign=learndsa" title="">DSA Learning Series</a></li>
+<li id="menu-2602" class="menu-path-https--www.codechef.com-tags-problems-itm_mediumnavmenuitm_campaigntagsproblems"><a href="https://www.codechef.com/tags/problems/?itm_medium=navmenu&amp;itm_campaign=tagsproblems" title="">Search Problems by Tags</a></li>
+<li id="menu-303" class="menu-path-https--www.codechef.com-problems-school-itm_mediumnavmenuitm_campaignproblems"><a href="https://www.codechef.com/problems/school/?itm_medium=navmenu&amp;itm_campaign=problems" title="">Practice Problems by Difficulty Level</a></li>
+<li id="menu-305" class="menu-path-https--www.codechef.com-cptutorialsitm_mediumnavmenuitm_campaigncptutorials"><a href="https://www.codechef.com/cptutorials?itm_medium=navmenu&amp;itm_campaign=cptutorials" title="">CP Tutorials</a></li>
+<li id="menu-304" class="menu-path-https--www.codechef.com-wiki-itm_mediumnavmenuitm_campaignwiki"><a href="https://www.codechef.com/wiki/?itm_medium=navmenu&amp;itm_campaign=wiki" title="">CodeChef Wiki</a></li>
+</ul>
+</li>
+<li id="menu-309" class="menuparent menu-path-https--www.codechef.com-contests-itm_mediumnavmenuitm_campaignallcontests_head"><a href="https://www.codechef.com/contests/?itm_medium=navmenu&amp;itm_campaign=allcontests_head" title="">COMPETE</a><ul><li id="menu-7494" class="menu-path-https--www.codechef.com-START6itm_campaignnavmenu"><a href="https://www.codechef.com/START6?itm_campaign=navmenu" title="">CodeChef Starters 6 (Rated for Div 3)</a></li>
+<li id="menu-9893" class="menu-path-https--www.codechef.com-START7-itm_mediumnavmenuitm_campaignSTART7"><a href="https://www.codechef.com/START7/?itm_medium=navmenu&amp;itm_campaign=START7" title="">CodeChef Starters 7 (Rated for Div 3)</a></li>
+<li id="menu-5679" class="menu-path-https--www.codechef.com-COOK131-itm_mediumnavmenuitm_campaignCOOK131"><a href="https://www.codechef.com/COOK131/?itm_medium=navmenu&amp;itm_campaign=COOK131" title="">July Cook-Off 2021</a></li>
+<li id="menu-6466" class="menu-path-https--www.codechef.com-LTIME98-itm_mediumnavmenuitm_campaignLTIME98"><a href="https://www.codechef.com/LTIME98/?itm_medium=navmenu&amp;itm_campaign=LTIME98" title="">July Lunchtime 2021</a></li>
+<li id="menu-5225" class="menu-path-https--www.codechef.com-JULY21-itm_mediumnavmenuitm_campaignJULY21"><a href="https://www.codechef.com/JULY21/?itm_medium=navmenu&amp;itm_campaign=JULY21" title="">July Challenge 2021 (Rated for Div 3)</a></li>
+<li id="menu-2203" class="menu-path-https--www.codechef.com-contests-itm_mediumnavmenuitm_campaignallcontests#present-contests"><a href="https://www.codechef.com/contests/?itm_medium=navmenu&amp;itm_campaign=allcontests#present-contests" title="">All Running Contests</a></li>
+<li id="menu-5224" class="menu-path-https--www.codechef.com-contests-itm_mediumnavmenuitm_campaignallcontests#future-contests"><a href="https://www.codechef.com/contests/?itm_medium=navmenu&amp;itm_campaign=allcontests#future-contests" title="">All Future Contests</a></li>
+<li id="menu-6868" class="menu-path-https--www.codechef.com-contests-itm_mediumnavmenuitm_campaignallcontests#past-contests"><a href="https://www.codechef.com/contests/?itm_medium=navmenu&amp;itm_campaign=allcontests#past-contests" title="">All Past Contests</a></li>
+<li id="menu-1820" class="menu-path-https--www.codechef.com-event-calendar-itm_mediumnavmenuitm_campaigncalendar"><a href="https://www.codechef.com/event-calendar/?itm_medium=navmenu&amp;itm_campaign=calendar" title="Event Calendar">Contest Calendar</a></li>
+<li id="menu-6689" class="menu-path-https--www.codechef.com-ratings-divisions-itm_mediumnavmenuitm_campaigndivisions"><a href="https://www.codechef.com/ratings/divisions/?itm_medium=navmenu&amp;itm_campaign=divisions" title="Rating Divisions">Contest Divisions</a></li>
+</ul>
+</li>
+<li id="menu-138" class="menuparent menu-path-https--discuss.codechef.com-itm_mediumnavmenuitm_campaigndiscuss_head"><a href="https://discuss.codechef.com/?itm_medium=navmenu&amp;itm_campaign=discuss_head" title="">DISCUSS</a><ul><li id="menu-139" class="menu-path-https--discuss.codechef.com-itm_mediumnavmenuitm_campaigndiscuss"><a href="https://discuss.codechef.com/?itm_medium=navmenu&amp;itm_campaign=discuss" title="">Discussion Forum</a></li>
+<li id="menu-140" class="menu-path-https--blog.codechef.com-itm_mediumnavmenuitm_campaignblog"><a href="https://blog.codechef.com/?itm_medium=navmenu&amp;itm_campaign=blog" title="">CodeChef Blog</a></li>
+<li id="menu-9894" class="menu-path-https--www.codechef.com-conversations-championsitm_mediumnavmenuitm_campaignconversations"><a href="https://www.codechef.com/conversations/champions?itm_medium=navmenu&amp;itm_campaign=conversations" title="">Weekends With Champions</a></li>
+<li id="menu-9517" class="menu-path-https--www.codechef.com-conversationsitm_mediumnavmenuitm_campaignconversations"><a href="https://www.codechef.com/conversations?itm_medium=navmenu&amp;itm_campaign=conversations" title="">Conversations with CodeChef</a></li>
+<li id="menu-2202" class="menu-path-https--www.facebook.com-CodeChef-groups-itm_mediumnavmenuitm_campaignfbgroups"><a href="https://www.facebook.com/CodeChef/groups/?itm_medium=navmenu&amp;itm_campaign=fbgroups" title="">Our Facebook Communities</a></li>
+</ul>
+</li>
+<li id="menu-143" class="menuparent menu-path-https--www.codechef.com-#"><a href="https://www.codechef.com/#" title="">OUR INITIATIVES</a><ul><li id="menu-715" class="menu-path-https--www.codechef.com-monthly-programming-contests-itm_mediumnavmenuitm_campaignmonthlycontests"><a href="https://www.codechef.com/monthly-programming-contests/?itm_medium=navmenu&amp;itm_campaign=monthlycontests" title="Programming Contests">Monthly Contests</a></li>
+<li id="menu-733" class="menu-path-https--www.codechef.com-hostyourcontest-itm_mediumnavmenuitm_campaignhyc"><a href="https://www.codechef.com/hostyourcontest/?itm_medium=navmenu&amp;itm_campaign=hyc" title="Hosting Contest on CodeChef">Host your Contest</a></li>
+<li id="menu-650" class="menu-path-https--www.codechef.com-certification-data-structures-and-algorithms-about-itm_mediumnavmenuitm_campaigncertification"><a href="https://www.codechef.com/certification/data-structures-and-algorithms/about/?itm_medium=navmenu&amp;itm_campaign=certification" title="">CodeChef Certification</a></li>
+<li id="menu-5741" class="menu-path-https--www.codechef.com-school-itm_mediumnavmenuitm_campaignschool"><a href="https://www.codechef.com/school/?itm_medium=navmenu&amp;itm_campaign=school" title="">CodeChef for Schools</a></li>
+<li id="menu-3830" class="menu-path-https--www.codechef.com-college-chapters-itm_mediumnavmenuitm_campaigncampuschapters"><a href="https://www.codechef.com/college-chapters/?itm_medium=navmenu&amp;itm_campaign=campuschapters" title="">College Chapters</a></li>
+<li id="menu-1371" class="menu-path-https--www.facebook.com-groups-womenincp-itm_mediumnavmenuitm_campaignwicp"><a href="https://www.facebook.com/groups/womenincp/?itm_medium=navmenu&amp;itm_campaign=wicp" title="">Women In Competitive Programming</a></li>
+<li id="menu-2310" class="menu-path-https--www.codechef.com-goforgold-itm_mediumnavmenuitm_campaigngoforgold"><a href="https://www.codechef.com/goforgold/?itm_medium=navmenu&amp;itm_campaign=goforgold" title="">Go for Gold</a></li>
+<li id="menu-5866" class="menu-path-https--www.codechef.com-snackdown-itm_mediumnavmenuitm_campaignsnackdown"><a href="https://www.codechef.com/snackdown/?itm_medium=navmenu&amp;itm_campaign=snackdown" title="">SnackDown</a></li>
+</ul>
+</li>
+<li id="menu-147" class="menuparent menu-path-https--www.codechef.com-corporates"><a href="https://www.codechef.com/corporates" title="">ASSOCIATE WITH US</a><ul><li id="menu-146" class="menu-path-https--www.codechef.com-corporatesitm_mediumnavmenuitm_campaignbusiness"><a href="https://www.codechef.com/corporates?itm_medium=navmenu&amp;itm_campaign=business" title="">Business Partnerships</a></li>
+<li id="menu-5824" class="menu-path-https--www.codechef.com-volunteer-itm_mediumnavmenuitm_campaignvolunteer"><a href="https://www.codechef.com/volunteer/?itm_medium=navmenu&amp;itm_campaign=volunteer" title="">Volunteer with Us</a></li>
+<li id="menu-1389" class="menu-path-https--www.codechef.com-problemsetting-itm_mediumnavmenuitm_campaignproblemsetting"><a href="https://www.codechef.com/problemsetting/?itm_medium=navmenu&amp;itm_campaign=problemsetting" title="Codechef Problem Creation">Become a Problem Setter</a></li>
+<li id="menu-9149" class="menu-path-https--www.codechef.com-careers-itm_mediumnavmenuitm_campaigncareers"><a href="https://www.codechef.com/careers/?itm_medium=navmenu&amp;itm_campaign=careers" title="">Careers Opportunities</a></li>
+<li id="menu-850" class="menu-path-https--www.codechef.com-contactus-itm_mediumnavmenuitm_campaigncontactus"><a href="https://www.codechef.com/contactus/?itm_medium=navmenu&amp;itm_campaign=contactus" title="">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-5681" class="menuparent menu-path-https--www.codechef.com-ratings-all"><a href="https://www.codechef.com/ratings/all" title="">MORE</a><ul><li id="menu-708" class="menu-path-https--www.codechef.com-ratings-all-itm_mediumnavmenuitm_campaignratings"><a href="https://www.codechef.com/ratings/all/?itm_medium=navmenu&amp;itm_campaign=ratings" title="">CodeChef Ratings</a></li>
+<li id="menu-6030" class="menu-path-https--goodies.codechef.com-itm_mediumnavmenuitm_campaigngoodies"><a href="https://goodies.codechef.com/?itm_medium=navmenu&amp;itm_campaign=goodies" title="">CodeChef Goodies</a></li>
+<li id="menu-1858" class="menu-path-https--www.codechef.com-workshops-itm_mediumnavmenuitm_campaignworkshops"><a href="https://www.codechef.com/workshops/?itm_medium=navmenu&amp;itm_campaign=workshops" title="">CodeChef Workshops</a></li>
+<li id="menu-826" class="menu-path-https--www.codechef.com-icpc-itm_mediumnavmenuitm_campaignicpc"><a href="https://www.codechef.com/icpc/?itm_medium=navmenu&amp;itm_campaign=icpc" title="">ICPC</a></li>
+<li id="menu-2372" class="menu-path-https--www.codechef.com-ioi-itm_mediumnavmenuitm_campaignioi"><a href="https://www.codechef.com/ioi/?itm_medium=navmenu&amp;itm_campaign=ioi" title="">IOI</a></li>
+<li id="menu-643" class="menu-path-https--www.codechef.com-wiki-faq-itm_mediumnavmenuitm_campaignfaq"><a href="https://www.codechef.com/wiki/faq/?itm_medium=navmenu&amp;itm_campaign=faq" title="">Frequently Asked Questions</a></li>
+<li id="menu-151" class="menu-path-https--www.codechef.com-aboutus-itm_mediumnavmenuitm_campaignaboutus"><a href="https://www.codechef.com/aboutus/?itm_medium=navmenu&amp;itm_campaign=aboutus" title="">About Us</a></li>
+</ul>
+</li>
+</ul>
+  </div>
+</div>
+          </div>
+
+        </div>
+      </div>
+      <!-- /HEADER -->
+    </div><!--.header-container-->
+
+    <center>
+            <!-- BEGIN: CONTENT -->
+      <table cellspacing="0" cellpadding="10" id="maintable" class="maintable">
+        <tr>
+          <td class="content" width="99%">
+            <div class="wrapper" id="content-regions">
+              <div class="inner-wrapper rounded-cr-body">
+                <div class="rounded-cr-header">
+                  <div class="rounded-cr-footer">
+                                        <div id="breadcrumb">
+                      <div class="breadcrumb"><a href="/">Home</a>&nbsp;&raquo;&nbsp;Practice(challenge)</div>                    </div>
+                                          <div id="primary-content" class="cols-2">
+                                                <img class="content-wrapper-header content" src="https://cdn.codechef.com/sites/all/themes/abessive/images/content-wrapper-bg.gif"/>
+
+                      <div class="content-wrapper">
+                        <div id='ember-app'></div>
+                                                                        <form id="filter" name="filter" action=""method="GET">
+           <input id="sort_by" name="sort_by" type="hidden" value="All">
+           <input id="sorting_order" name="sorting_order" type="hidden" value="">
+           </form><div class="content-spacer">
+            <img width="602px" height="287px" class="content-wrapper-header" alt="Try your hand at one of the practice
+                 problems, and submit your solution in the language of your choice
+                 (our judge accepts solutions in over 35+ languages). Receive points,
+                 and move up through the CodeChef ranks. Get better, and better prepare
+                 yourself for the competitions" src="https://cdn.codechef.com/misc/banner-practice.jpg" />
+            <div class="content-wrapper"><div class="c4s_topmenu">
+                    <ul id="problem-challenge"><li class = ' border-right'><a href='/problems/school/'>beginner</a></li><li class = ' border-right'><a href='/problems/easy/'>easy</a></li><li class = ' border-right'><a href='/problems/medium/'>medium</a></li><li class = ' border-right'><a href='/problems/hard/'>hard</a></li><li class = 'active_category  border-right'><a href='/problems/challenge/'>challenge</a></li><li class = ''><a href='/problems/extcontest/'>peer</a></li></ul></div>
+<div class="">
+    <table class="dataTable" width="100%">
+        <thead>
+        <tr>
+            <th align="center" style="width:60%;" ><a href="javascript: sorting('Name','asc')" style="color:white; text-decoration:underline;"><div class="sortIcon both" ></div> Name</a></th><th align="center" style="width:20%" ><a href="javascript: sorting('Code','asc')" style="color:white; text-decoration:underline;"><div class="sortIcon both" ></div> Code</a></th><th align="center" style="width:10%;" ><a href="javascript: sorting('SuccessfulSubmission','desc')" style="color:white; text-decoration:underline;"><div class="sortIcon active-asc" ></div> Successful Submission</a></th><th align="center" style="width:10%;" ><a href="javascript: sorting('Accuracy','asc')" style="color:white; text-decoration:underline;"><div class=$class_order><div class="sortIcon both" ></div> Accuracy</a></th>        </tr>
+        </thead>
+        <tbody>
+            <tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/TMBOX">
+                                <b>The Turing Music Box</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/TMBOX">TMBOX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">7</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/TMBOX">1.31</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/EX">
+                                <b>Lights Off, Revisited!</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/EX">EX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">12</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/EX">6</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/TILT">
+                                <b>Table Tilt</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/TILT">TILT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">13</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/TILT">17.69</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHNWGM">
+                                <b>Chef and New Game</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHNWGM">CHNWGM</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">14</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHNWGM">36.9</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEABIL">
+                                <b>(CH) Serejs and Billiards</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEABIL">SEABIL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">14</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEABIL">41.18</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/STORO">
+                                <b>Rotation Puzzle</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/STORO">STORO</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/STORO">12</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/EMBDTREE">
+                                <b>Embedding a Tree (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/EMBDTREE">EMBDTREE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/EMBDTREE">45.59</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/WAREHOUS">
+                                <b>Warehouseman (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/WAREHOUS">WAREHOUS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/WAREHOUS">48.57</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MYST">
+                                <b>Chef in a Mysterious Land (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MYST">MYST</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MYST">39.02</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHEFXCHG">
+                                <b>(Challenge) Chef Exchange</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHEFXCHG">CHEFXCHG</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHEFXCHG">50</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHFWAR2">
+                                <b>(Challenge) Codechef War II</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHFWAR2">CHFWAR2</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHFWAR2">62.5</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SYNBAC">
+                                <b>(Challenge) Bacteria Synthesis</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SYNBAC">SYNBAC</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SYNBAC">41.3</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEBICPU">
+                                <b>(Challenge) Sebi and CPU Design</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEBICPU">SEBICPU</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEBICPU">55.26</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/VBR">
+                                <b>Vibrating Paths (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/VBR">VBR</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/VBR">40.54</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CUTCAKE">
+                                <b>Cut the Cake (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CUTCAKE">CUTCAKE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CUTCAKE">48.72</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/WTRSORT">
+                                <b>Water Sort Puzzle (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/WTRSORT">WTRSORT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">15</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/WTRSORT">75</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/L2GRAPH">
+                                <b>Graphs in Euclidean Space</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/L2GRAPH">L2GRAPH</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/L2GRAPH">28.38</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SPIN">
+                                <b>Spinning Wheels</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SPIN">SPIN</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SPIN">30.36</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SCRABBLE">
+                                <b>Scrabble on a Graph</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SCRABBLE">SCRABBLE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SCRABBLE">26.98</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEAFUNC">
+                                <b>Sereja and Functions (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEAFUNC">SEAFUNC</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEAFUNC">52.27</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEAWCU">
+                                <b>Sereja and Ways in the Cube</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEAWCU">SEAWCU</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEAWCU">60.53</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/EDIT">
+                                <b>Edit Distance Revisited</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/EDIT">EDIT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/EDIT">45.45</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MATDW">
+                                <b>Mathison and the Data Warehouse (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MATDW">MATDW</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MATDW">69.33</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/DSANTAP">
+                                <b>Santa Delivering Problem</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/DSANTAP">DSANTAP</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/DSANTAP">56.38</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/NONCONVX">
+                                <b>Not a Convex Hull (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/NONCONVX">NONCONVX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/NONCONVX">82.61</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/DYNHUL">
+                                <b>(Challenge) Dynamic Hull</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/DYNHUL">DYNHUL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">16</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/DYNHUL">36.36</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/BX">
+                                <b>Bubbles</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/BX">BX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/BX">18.75</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CX">
+                                <b>Best board fill</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CX">CX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CX">44.44</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/DELIVERY">
+                                <b>Delivering Bread</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/DELIVERY">DELIVERY</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/DELIVERY">70.91</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/ALLINONE">
+                                <b>The Amazing All-In-One Cooking Machine - Challenge</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/ALLINONE">ALLINONE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/ALLINONE">59.65</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/AMBIDEX">
+                                <b>Ambidextrous Chefs</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/AMBIDEX">AMBIDEX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/AMBIDEX">65.87</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHECKERS">
+                                <b>Eastern Draughts</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHECKERS">CHECKERS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHECKERS">33.8</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEASNAKE">
+                                <b>Sereja and Snake</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEASNAKE">SEASNAKE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEASNAKE">44.62</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/TOURBUS">
+                                <b>Byteland Tours</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/TOURBUS">TOURBUS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/TOURBUS">53.85</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/ANUMFS">
+                                <b>The Malaysian Flight Search</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/ANUMFS">ANUMFS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/ANUMFS">30.77</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEADIVM">
+                                <b>Sereja and Matrix Division</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEADIVM">SEADIVM</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEADIVM">65.07</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHEFJR">
+                                <b>Chef and Job and Rest</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHEFJR">CHEFJR</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHEFJR">47.73</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/EMBED">
+                                <b>Embedding</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/EMBED">EMBED</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/EMBED">76.07</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SNAKGAME">
+                                <b>Game of snakes on a grid</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SNAKGAME">SNAKGAME</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SNAKGAME">43.08</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SHOP2">
+                                <b>Optimal Shopping II</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SHOP2">SHOP2</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SHOP2">72.55</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEACIR">
+                                <b>Sereja and Circles</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEACIR">SEACIR</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEACIR">38.3</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHEFBATL">
+                                <b>Chef and Battleship</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHEFBATL">CHEFBATL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHEFBATL">65.88</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SRVRS">
+                                <b>Servers (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SRVRS">SRVRS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SRVRS">35.64</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/ANTS">
+                                <b>Ants (Challenge) </b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/ANTS">ANTS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">17</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/ANTS">67.74</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/BYTELE">
+                                <b>Bytelandian Telecom</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/BYTELE">BYTELE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/BYTELE">67.86</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/GX">
+                                <b>Mosaic</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/GX">GX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/GX">63.93</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/INTCOMB">
+                                <b>Integer Combinations Of Vectors</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/INTCOMB">INTCOMB</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/INTCOMB">70.97</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/WORDNINJ">
+                                <b>WordNinjas</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/WORDNINJ">WORDNINJ</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/WORDNINJ">66.96</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/DARTS">
+                                <b>DARTS501</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/DARTS">DARTS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/DARTS">68.67</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SCLUSTER">
+                                <b>Social Cluster</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SCLUSTER">SCLUSTER</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SCLUSTER">55.26</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/EBOLA">
+                                <b>Fighting Ebola</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/EBOLA">EBOLA</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/EBOLA">65.22</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CLUSSCHE">
+                                <b>Scheduling jobs on a cluster</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CLUSSCHE">CLUSSCHE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CLUSSCHE">64.37</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/ALICGARD">
+                                <b>Alice and her garden</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/ALICGARD">ALICGARD</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/ALICGARD">74.14</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/ADANTS">
+                                <b>(Challenge) 300 IQ Ants</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/ADANTS">ADANTS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/ADANTS">43.24</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/WIREL">
+                                <b>Wireless Electricity (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/WIREL">WIREL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">18</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/WIREL">71.43</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/DX">
+                                <b>Pack the balls in a box!</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/DX">DX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/DX">59.52</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/KX">
+                                <b>Park tour</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/KX">KX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/KX">43.86</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/BLOCKS">
+                                <b>Block Tower</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/BLOCKS">BLOCKS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/BLOCKS">35.82</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CAVE">
+                                <b>Mushroom Cave</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CAVE">CAVE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CAVE">52.29</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SMVSEVIL">
+                                <b>Smart Chef vs Evil Chef</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SMVSEVIL">SMVSEVIL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SMVSEVIL">58.93</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SHOPPING">
+                                <b>Shopping</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SHOPPING">SHOPPING</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SHOPPING">82.32</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/EFFDELIV">
+                                <b>Efficient Delivery</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/EFFDELIV">EFFDELIV</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/EFFDELIV">84.21</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/WARTARAN">
+                                <b>Chef and War with Taran (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/WARTARAN">WARTARAN</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/WARTARAN">32.61</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CONGRID">
+                                <b>Connect on a Grid (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CONGRID">CONGRID</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">19</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CONGRID">69.81</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/BYTEFOOD">
+                                <b>Food Shortage in Byteland</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/BYTEFOOD">BYTEFOOD</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">20</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/BYTEFOOD">49.25</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MARCHAX">
+                                <b>Place the mines!</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MARCHAX">MARCHAX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">20</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MARCHAX">52.08</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEAARI">
+                                <b>Sereja and Progressions</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEAARI">SEAARI</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">20</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEAARI">66.67</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/TANKS">
+                                <b>Tanks</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/TANKS">TANKS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">20</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/TANKS">61.19</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/TRICOL">
+                                <b>(Challenge) Coloring Triangulations</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/TRICOL">TRICOL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">20</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/TRICOL">71.74</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/BURNCITY">
+                                <b>The Burning City</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/BURNCITY">BURNCITY</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">21</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/BURNCITY">61.7</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MX">
+                                <b>Sorting device</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MX">MX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">21</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MX">3.1</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/GRAPHCH">
+                                <b>Graph Challenge</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/GRAPHCH">GRAPHCH</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">21</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/GRAPHCH">53.33</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SPLIT">
+                                <b>Splitting Giant Subs</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SPLIT">SPLIT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">21</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SPLIT">62.5</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/BFORG">
+                                <b>The Secret Fellowship of Byteland</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/BFORG">BFORG</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">22</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/BFORG">24.9</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHEFPALS">
+                                <b>(Challenge) Chef and Palindromes</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHEFPALS">CHEFPALS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">22</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHEFPALS">61.54</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/NBOTS">
+                                <b>(Challenge) Nanobots</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/NBOTS">NBOTS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">22</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/NBOTS">31.37</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CAKES">
+                                <b>Cake Production Line</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CAKES">CAKES</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">23</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CAKES">76.32</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/BICKER">
+                                <b>Bickering Cooks</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/BICKER">BICKER</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">23</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/BICKER">58.06</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/COMPLEXT">
+                                <b>Complex Spanning Tree</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/COMPLEXT">COMPLEXT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">23</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/COMPLEXT">68.49</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MAXDIFFW">
+                                <b>Maximum Difference Walk</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MAXDIFFW">MAXDIFFW</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">23</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MAXDIFFW">43.88</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CROSSES">
+                                <b>The Game of Crosses & Crosses</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CROSSES">CROSSES</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">24</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CROSSES">65.91</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/FLOOD">
+                                <b>Flood</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/FLOOD">FLOOD</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">24</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/FLOOD">57.4</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHTTRS">
+                                <b>Chef and Chetris</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHTTRS">CHTTRS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">24</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHTTRS">59.85</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MATCHIT">
+                                <b>(Challenge) Chef and Matching Game</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MATCHIT">MATCHIT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">24</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MATCHIT">43.84</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SQSORT">
+                                <b>Stack-Queue Sort (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SQSORT">SQSORT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">24</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SQSORT">73.33</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/NX">
+                                <b>The Best Tower</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/NX">NX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">25</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/NX">27.55</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/ADDCHAIN">
+                                <b>Addition chains</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/ADDCHAIN">ADDCHAIN</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">25</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/ADDCHAIN">28.33</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SBTR">
+                                <b>Saboteur (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SBTR">SBTR</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">25</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SBTR">75.38</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/FACTORY">
+                                <b>Optimizing Production and Sales</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/FACTORY">FACTORY</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">26</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/FACTORY">58.18</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEASHUF">
+                                <b>Sereja and Shuffling</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEASHUF">SEASHUF</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">27</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEASHUF">56.79</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHMTDV">
+                                <b>Chef and Matrix Division</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHMTDV">CHMTDV</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">28</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHMTDV">70.67</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/TOMJERRY">
+                                <b>Tom And Jerry</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/TOMJERRY">TOMJERRY</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">29</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/TOMJERRY">48.45</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SIMNIM">
+                                <b>Simultaneous Nim</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SIMNIM">SIMNIM</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">29</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SIMNIM">47.06</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/KILOWHAT">
+                                <b>A Fence for Byteland</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/KILOWHAT">KILOWHAT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">29</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/KILOWHAT">44.44</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHPUZZLE">
+                                <b>Jigsaw Puzzle Solving</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHPUZZLE">CHPUZZLE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">32</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHPUZZLE">53.7</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/POINTCN">
+                                <b>(Challenge) Connecting computers</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/POINTCN">POINTCN</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">32</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/POINTCN">73.74</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHEFNIL">
+                                <b>Chef and Intersection Line</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHEFNIL">CHEFNIL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">33</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHEFNIL">52.99</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHMKTRPS">
+                                <b>Chef and Making Triples</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHMKTRPS">CHMKTRPS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">33</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHMKTRPS">45.38</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/EDSTGRID">
+                                <b>Edit Distance on Grid</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/EDSTGRID">EDSTGRID</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">34</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/EDSTGRID">57.28</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CUBVIRUS">
+                                <b>(Challenge) Cubical Virus</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CUBVIRUS">CUBVIRUS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">34</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CUBVIRUS">72.73</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHNGSS">
+                                <b>Chef and Number Guessing</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHNGSS">CHNGSS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">35</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHNGSS">28.82</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SNCK99">
+                                <b>(Challenge) SnackDown 99</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SNCK99">SNCK99</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">35</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SNCK99">71.01</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/KITCHEN">
+                                <b>Large Kitchen</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/KITCHEN">KITCHEN</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">36</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/KITCHEN">59.52</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/FX">
+                                <b>Crystals</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/FX">FX</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">38</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/FX">63.38</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MANYLEFT">
+                                <b>Many Left</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MANYLEFT">MANYLEFT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">38</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MANYLEFT">72.87</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SMPAINT">
+                                <b>Art in Digital Age</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SMPAINT">SMPAINT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">38</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SMPAINT">68.89</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/INTERLEA">
+                                <b>(Challenge) Interleaving Strings</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/INTERLEA">INTERLEA</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">38</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/INTERLEA">57.97</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/FAULT">
+                                <b>Fault Tolerance</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/FAULT">FAULT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">41</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/FAULT">57.48</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/ANTHILL">
+                                <b>(Challenge) Building Anthills</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/ANTHILL">ANTHILL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">41</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/ANTHILL">58.56</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/LAND">
+                                <b>The Great Plain</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/LAND">LAND</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">44</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/LAND">71.81</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MAXLIS">
+                                <b>(Challenge) Maximizing LIS</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MAXLIS">MAXLIS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">44</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MAXLIS">45.9</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CKROACH">
+                                <b>Killing Gs</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CKROACH">CKROACH</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">46</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CKROACH">86.42</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/STEPAVG">
+                                <b>Stepping Average</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/STEPAVG">STEPAVG</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">47</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/STEPAVG">66.84</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/BIAS">
+                                <b>(Challenge) Biased Committee</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/BIAS">BIAS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">47</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/BIAS">84.21</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/LMATRIX2">
+                                <b>Make It Zero 2</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/LMATRIX2">LMATRIX2</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">48</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/LMATRIX2">61.82</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHEFZERO">
+                                <b>Chef and Condition Zero (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHEFZERO">CHEFZERO</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">48</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHEFZERO">56.78</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEASORT2">
+                                <b>Sereja and Sorting 2</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEASORT2">SEASORT2</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">49</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEASORT2">69.52</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEASOR">
+                                <b>Sereja and Sorting</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEASOR">SEASOR</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">50</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEASOR">66.3</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CLOSEST">
+                                <b>Closest Points</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CLOSEST">CLOSEST</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">53</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CLOSEST">32.42</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SPELL">
+                                <b>The Spelling Problem</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SPELL">SPELL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">53</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SPELL">58.23</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/DIVLAND">
+                                <b>Division of Lands</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/DIVLAND">DIVLAND</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">53</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/DIVLAND">42.41</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/TOLLS">
+                                <b>Pricing Tollbooths</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/TOLLS">TOLLS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">54</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/TOLLS">85.24</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SIMGRAPH">
+                                <b>Similar Graphs</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SIMGRAPH">SIMGRAPH</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">60</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SIMGRAPH">63.58</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHORCKIT">
+                                <b>(Challenge) Chef with Orchestra in the Kitchen</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHORCKIT">CHORCKIT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">60</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHORCKIT">70.99</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/KALKI">
+                                <b>Kali and Devtas</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/KALKI">KALKI</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">61</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/KALKI">67.66</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/PRITREE">
+                                <b>Chef, Primes and Trees (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/PRITREE">PRITREE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">61</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/PRITREE">72.73</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/DLDAG">
+                                <b>(Challenge) Delete DAG</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/DLDAG">DLDAG</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">61</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/DLDAG">46.6</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/EFFPAINT">
+                                <b>Efficient Painting</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/EFFPAINT">EFFPAINT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">64</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/EFFPAINT">63.57</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MAXRECT">
+                                <b>Maximum Sub-rectangle in Matrix</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MAXRECT">MAXRECT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">65</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MAXRECT">38.29</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/DELNMS">
+                                <b>Deleting numbers</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/DELNMS">DELNMS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">71</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/DELNMS">60.37</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEAPERM">
+                                <b>Sereja and Permutation</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEAPERM">SEAPERM</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">80</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEAPERM">71.04</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/THREECLR">
+                                <b>Coloring Colorable Graphs</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/THREECLR">THREECLR</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">84</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/THREECLR">47.74</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHEFPNT">
+                                <b>Chef and Painting</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHEFPNT">CHEFPNT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">87</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHEFPNT">50.61</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/MINESWPR">
+                                <b>Minesweeper</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/MINESWPR">MINESWPR</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">99</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/MINESWPR">54.04</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/NSUDOKU">
+                                <b>Sudoku Solver</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/NSUDOKU">NSUDOKU</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">108</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/NSUDOKU">16.26</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHAORNOT">
+                                <b>To challenge or not</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHAORNOT">CHAORNOT</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">109</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHAORNOT">54.17</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHALENGE">
+                                <b>Password Cracking Challenge</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHALENGE">CHALENGE</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">122</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHALENGE">66.25</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/CHEFPAR">
+                                <b>Chef and Array (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/CHEFPAR">CHEFPAR</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">133</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/CHEFPAR">69.44</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SORTROW">
+                                <b>(CH) Bear and Sorted Rows</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SORTROW">SORTROW</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">140</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SORTROW">74.68</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/GERALD09">
+                                <b>Chef and Rectangle Genome</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/GERALD09">GERALD09</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">146</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/GERALD09">77.07</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/TLCS">
+                                <b>Longest Common Subsequence</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/TLCS">TLCS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">162</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/TLCS">19.75</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/COVDSMPL">
+                                <b>Covid Sampling (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/COVDSMPL">COVDSMPL</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">178</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/COVDSMPL">43.78</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/SEAVEC">
+                                <b>Sereja and Vectors</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/SEAVEC">SEAVEC</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">194</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/SEAVEC">62.18</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/RAISINS">
+                                <b>(Challenge) Raisins</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/RAISINS">RAISINS</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">398</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/RAISINS">71.97</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/ANSLEAK">
+                                <b>Leaked Answers (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/ANSLEAK">ANSLEAK</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">436</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/ANSLEAK">77.14</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/RECTARAN">
+                                <b>Moving Rectangles (Challenge)</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/RECTARAN">RECTARAN</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">526</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/RECTARAN">81.48</a></td></tr><tr class="problemrow"><td ><div class="problemname">
+                            <a href="/problems/FACTORIZ">
+                                <b>Factorisation</b>
+                            </a>
+                        </div>
+                        <div class="flexbox"></div></td><td ><a title="Submit a solution to this problem." href="/submit/FACTORIZ">FACTORIZ</a></td><td align="center" style="text-align:center;"><div style="text-align:center;" data-tooltip="">664</div></td><td align="center" style="text-align:center;"><a title="See all submitted solutions to this problem."
+                                      href="/status/FACTORIZ">42.69</a></td></tr>        </tbody>
+    </table>
+    <br /> </div></div></div>                      </div>
+                    </div>
+                    <div id="sidebar-content" class="cols-2">
+                      <div class="content-spacer">
+                                              </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </center>
+  <footer id="cc-footer-div">
+      <style>
+    .center-desc {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 11px !important;
+    }
+
+    #cc-footer-div {
+        background: #fff;
+        border-top: 2px solid #cbcbcb;
+        padding-top: 55px;
+        font-family: Arial, sans-serif !important;
+        text-align: left !important;
+    }
+
+    .horizontal-list {
+        display: flex;
+        margin-left: 0 !important;
+        padding: 0px !important;
+        margin-bottom: 20px;
+    }
+
+    .horizontal-list li {
+        list-style: none;
+        font-size: 11px !important;
+        padding: 0px 5px 0px 0px !important;
+        height: 12px !important;
+    }
+
+    .horizontal-list li a {
+        color: #4a4a4a !important;
+        font-size: 11px !important;
+        text-decoration: underline;
+    }
+
+    .horizontal-list li a:hover {
+        text-decoration: underline !important;
+    }
+
+    .li-hr {
+        height: 11px;
+        width: 1px;
+        background: #4a4a4a;
+        display: block;
+        align-self: center;
+        margin-right: 5px;
+        position: relative;
+        top: 0.2em;
+    }
+
+    .footer-row {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 950px;
+    }
+
+    .flex-row-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-row-footer p {
+        font-size: 11px !important;
+        color: #4a4a4a !important;
+        margin-bottom: 5px !important;
+    }
+
+    .flex-row-footer p a {
+        color: #4a4a4a !important;
+        text-decoration: underline !important;
+    }
+
+    .flex-row-footer p a:hover {
+        text-decoration: underline !important;
+    }
+
+    .flex-row-footer span {
+        color: #4a4a4a !important;
+        font-size: 11px !important;
+    }
+
+    .footer-uniq-div {
+        color: #4a4a4a !important;
+        font-size: 11px !important;
+        text-align: right;
+    }
+
+    .para-div {
+        margin: 10px 0 0 0 !important;
+    }
+
+    .para-div article .footer-heading {
+        font-weight: 700 !important;
+        font-size: 13px !important;
+        color: #666 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .para-div article .footer-heading a {
+        text-decoration: underline !important;
+        color: #666 !important;
+    }
+
+    .para-div article h6 a:hover {
+        text-decoration: underline !important;
+    }
+
+    .para-div article p {
+        font-size: 12px !important;
+        color: #777 !important;
+        text-align: justify !important;
+        margin-bottom: 5px;
+        line-height: 1.6 !important;
+    }
+
+    .footer-flex-list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px !important;
+        width: 795px;
+    }
+
+    .footer-flex-list .footer-list-heading {
+        font-size: 13px !important;
+        font-weight: 700 !important;
+        text-decoration: underline !important;
+        color: #777 !important;
+    }
+
+    .inner-footer-div ul li {
+        list-style: none !important;
+        line-height: 25px !important;
+        padding: 0 !important;
+    }
+
+    .inner-footer-div li a {
+        list-style: none !important;
+        font-size: 12px !important;
+        color: #666 !important;
+        padding: 0 0 5px 0 !important;
+        text-decoration: underline !important;
+    }
+
+    .inner-footer-div li a:hover {
+        text-decoration: underline !important;
+    }
+
+    .inner-footer-div ul {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .inner-footer-div {
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+</style>
+
+<script language="javascript" type="text/javascript">
+    function savedServerOffset(ts) {
+        ts = ts * 1000;
+        now = Date.now();
+        offset = now - ts;
+        return offset;
+    }
+
+    function formatTime(offset) {
+        ts = Date.now() - offset;
+        now = new Date(ts);
+        localtime = new Date();
+        hour = now.getHours();
+        min = now.getMinutes();
+        sec = now.getSeconds();
+
+        if (min <= 9) {
+            min = "0" + min;
+        }
+        if (sec <= 9) {
+            sec = "0" + sec;
+        }
+        if (hour > 12) {
+            hour = hour - 12;
+            add = " PM";
+        } else {
+            hour = hour;
+            add = " AM";
+        }
+        if (hour == 12) {
+            add = " PM";
+        }
+        if (hour == 00) {
+            hour = "12";
+        }
+
+        $('#server-time').html(((hour <= 9) ? "0" + hour : hour) + ":" + min + ":" + sec + add);
+
+        nextSec = (now.getTime() + 1000);
+
+        setTimeout("formatTime(" + offset + ")", 1000);
+    }
+
+    function getDtTimeZone() {
+        var rightNow = new Date();
+        var toDay = new Date(rightNow.getFullYear(), 0, 1, 0, 0, 0, 0);
+        var temp = toDay.toGMTString();
+        var date2 = new Date(temp.substring(0, temp.lastIndexOf(" ") - 1));
+        var stdTime = (toDay - date2) / (1000 * 60 * 60);
+        return stdTime;
+    }
+
+</script>
+<div class="footer-row">
+    <p class="center-desc"><u>CodeChef is a competitive programming community</u></p>
+</div>
+<div class="footer-row flex-row-footer">
+    <div>
+        <ul class="horizontal-list">
+            <li><a href="/aboutus/">About CodeChef</a></li>
+            <div class="li-hr"></div>
+            <li><a href="/contactus">Contact Us</a></li>
+        </ul>
+        <p>CodeChef uses SPOJ &copy; by <a href="https://www.sphere-research.com" target="_blank">Sphere Research
+                Labs</a><br>In order to report copyright violations of any kind, send in an email to <a
+                    href="mailto:copyright@codechef.com">copyright@codechef.com</a></p>
+    </div>
+
+    <div>
+        <div class="footer-uniq-div">The time now is: <span id="server-time"></span><br/>
+            <span>Your IP: <span>34.243.145.4</span></span>
+            <script language='javascript'>formatTime(savedServerOffset('1626611484'));</script>        </div>
+    </div>
+</div>
+<div class="footer-row">
+    <div class="para-div">
+        <article>
+            <p class="footer-heading"><a href="/">CodeChef</a> - A Platform for Aspiring Programmers</p>
+            <p>CodeChef was created as a platform to help programmers make it big in the world of
+                <strong>algorithms</strong>, <strong>computer programming</strong>, and <strong>programming
+                    contests</strong>. At CodeChef we work hard to revive the geek in you by hosting a <strong>
+                    programming
+                    contest</strong> at the start of the month and two smaller programming challenges at the middle and
+                end of the month. We also aim to have training sessions and discussions related to
+                <strong>algorithms</strong>, <strong>binary search</strong>, technicalities like <strong>array
+                    size</strong> and the likes. Apart from providing a platform for <strong>programming
+                    competitions</strong>, CodeChef also has various algorithm tutorials and forum discussions to help
+                those who are new to the world of <strong>computer programming</strong>.</p>
+        </article>
+
+        <article>
+            <p class="footer-heading"><a href="/problems/easy">Practice Section</a>
+                - A Place to hone your 'Computer Programming Skills'</p>
+            <p>Try your hand at one of our many practice problems and submit your solution in the language of your
+                choice. Our <strong>programming contest</strong> judge accepts solutions in over 55+ programming
+                languages. Preparing for coding contests were never this much fun! Receive points, and move up through
+                the CodeChef ranks. Use our practice section to better prepare yourself for the multiple <strong>programming
+                    challenges</strong> that take place through-out the month on CodeChef.</p>
+        </article>
+
+        <article>
+            <p class="footer-heading"><a href="/contests">Compete</a> - Monthly Programming Contests, Cook-off and Lunchtime</p>
+            <p>Here is where you can show off your <strong>computer programming skills</strong>. Take part in our 10
+                days long monthly coding contest and the shorter format Cook-off and Lunchtime <strong>coding
+                    contests</strong>. Put yourself up for recognition and win great prizes. Our <strong>programming
+                    contests</strong> have prizes worth up to INR 20,000 (for Indian Community), $700 (for Global
+                Community) and lots more CodeChef goodies up for grabs.</p>
+        </article>
+    </div>
+</div>
+
+<div class="footer-row">
+    <div class="footer-flex-list">
+        <div class="inner-footer-div">
+            <p class="footer-list-heading">Programming Tools</p>
+            <ul>
+                <li><a href="/ide">Online IDE</a></li>
+                <li><a href="/contests#future-contests">Upcoming Coding Contests</a></li>
+                <li><a href="/hostyourcontest">Contest Hosting</a></li>
+                <li><a href="/problemsetting">Problem Setting</a></li>
+                <li><a href="/wiki/tutorials">CodeChef Tutorials</a></li>
+                <li><a href="/wiki">CodeChef Wiki</a></li>
+            </ul>
+        </div>
+
+        <div class="inner-footer-div">
+            <p class="footer-list-heading">Practice Problems</p>
+            <ul>
+                <li><a href="/problems/easy">Easy</a></li>
+                <li><a href="/problems/medium">Medium</a></li>
+                <li><a href="/problems/hard">Hard</a></li>
+                <li><a href="/problems/challenge">Challenge</a></li>
+                <li><a href="/problems/extcontest">Peer</a></li>
+                <li><a href="/problems/school">School</a></li>
+                <li><a href="/wiki/faq">FAQ's</a></li>
+            </ul>
+        </div>
+
+        <div class="inner-footer-div">
+            <p class="footer-list-heading">Initiatives</p>
+            <ul>
+                <li><a href="/goforgold">Go for Gold</a></li>
+                <li><a href="/school">CodeChef for Schools</a></li>
+                <li><a href="/college-chapters">College Chapters</a></li>
+                <li><a href="https://business.codechef.com">CodeChef for Business</a></li>
+            </ul>
+        </div>
+
+        <div class="inner-footer-div">
+            <p class="footer-list-heading">Policy</p>
+            <ul>
+                <li><a href="/terms">Terms of Service</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/refund-policy">Refund Policy</a></li>
+                <li><a href="/codeofconduct">Code of Conduct</a></li>
+                <li><a href="/bug-bounty-program">Bug Bounty Program</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script id='_webengage_script_tag' type='text/javascript'>
+    var webengage;!function(w,e,b,n,g){function o(e,t){e[t[t.length-1]]=function(){r.__queue.push([t.join("."),
+        arguments])}}var i,s,r=w[b],z=" ",l="init options track screen onReady".split(z),a="feedback survey notification".split(z),c="options render clear abort".split(z),p="Open Close Submit Complete View Click".split(z),u="identify login logout setAttribute".split(z);if(!r||!r.__v){for(w[b]=r={__queue:[],__v:"6.0",user:{}},i=0;i < l.length;i++)o(r,[l[i]]);for(i=0;i < a.length;i++){for(r[a[i]]={},s=0;s < c.length;s++)o(r[a[i]],[a[i],c[s]]);for(s=0;s < p.length;s++)o(r[a[i]],[a[i],"on"+p[s]])}for(i=0;i < u.length;i++)o(r.user,["user",u[i]]);setTimeout(function(){var f=e.createElement("script"),d=e.getElementById("_webengage_script_tag");f.type="text/javascript",f.async=!0,f.src=("https:"==e.location.protocol?"https://ssl.widgets.webengage.com":"http://cdn.widgets.webengage.com")+"/js/webengage-min-v-6.0.js",d.parentNode.insertBefore(f,d)})}}(window,document,"webengage");webengage.init("~7168057d");
+</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-53602-42']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '460995904241257');
+    fbq('track', 'PageView');
+
+</script>
+<noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=460995904241257&ev=PageView
+   &noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Linkedin Code -->
+<script type="text/javascript">
+    _linkedin_data_partner_id = "93463";
+
+</script>
+<script type="text/javascript">
+    (function () {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt=""
+               src="https://dc.ads.linkedin.com/collect/?pid=93463&fmt=gif"/></noscript>
+<!-- Linkedin Code End -->
+  </footer>
+    <script type="text/javascript">
+            _linkedin_data_partner_id = "93463";
+            </script><script type="text/javascript">
+            (function(){var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);})();
+        </script>
+        <noscript>
+            <img height="1" width="1" style="display:none;" alt=""
+                src="https://dc.ads.linkedin.com/collect/?pid=93463&fmt=gif" />
+        </noscript>
+<script>
+            $(document).ready(function(){
+                let cookie_name = "i-love-cookies";
+                show_hide_cookie_notification(cookie_name);
+                $("#gdpr-i-love-cookies").click(function() {
+                    cCookie(cookie_name, "yes", {expires: 30, path: "/", secure: true});
+                    show_hide_cookie_notification(cookie_name);
+                });
+
+                function show_hide_cookie_notification(cookie_name) {
+                    let value = cCookie(cookie_name);
+                    if (value === "yes") {
+                      $("#gdpr-cookie-notif").fadeOut();
+                    } else {
+                      $("#gdpr-cookie-notif").fadeIn();
+                    }
+                }
+            });
+        </script><div id="gdpr-cookie-notif" class="global--announcement" style="display: none;">
+    <div class="global--announcement__content">
+      <p>
+        We use cookies to improve your experience and for analytical purposes.
+        Read our <a href="/privacy-policy">Privacy Policy</a>
+        and <a href="/terms">Terms</a> to know more.
+        You consent to our cookies if you continue to use our website.
+      </p>
+    </div>
+    <div class="global--announcement__action">
+      <button id="gdpr-i-love-cookies" class="button grey tiny">Okay</button>
+    </div>
+  </div></body>
+</html>

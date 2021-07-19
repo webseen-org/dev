@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en"
+dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:url" content="https://www.codechef.com/ioi" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="International Olympiad in Informatics | CodeChef" />
+<meta property="og:image" content="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png" />
+<meta property="og:description" content="International Olympiad in Informatics | CodeChef" />
+<meta property="fb:app_id" content="191217060453" />
+<meta name='robots' content='index, follow' />
+<meta name='description' content='IOI is one of the five International Science Olympiads organized around the world. Get all the details about IOI 2020 contest structure, eligibility, syllabus, venue at CodeChef' />    <link rel='canonical' href='https://www.codechef.com/ioi'>    <!-- Errorception -->
+        <script>
+            (function(_,e,rr,s){_errs=[s];var c=_.onerror;_.onerror=function(){var a=arguments;_errs.push(a);
+              c&&c.apply(this,a)};var b=function(){var c=e.createElement(rr),b=e.getElementsByTagName(rr)[0];
+                c.src="//beacon.errorception.com/"+s+".js";c.async=!0;b.parentNode.insertBefore(c,b)};
+                _.addEventListener?_.addEventListener("load",b,!1):_.attachEvent("onload",b)})
+            (window,document,"script","4e7c8fce06a9ab05530008e5");
+          </script>
+          <!--End Errorception -->
+<!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TV5X2M');</script>
+        <!-- End Google Tag Manager -->
+<!-- Facebook Pixel Code -->
+            <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+             fbq('init', '2444182835820350'); 
+            fbq('track', 'PageView');
+            </script>
+            <noscript>
+             <img height="1" width="1" 
+            src="https://www.facebook.com/tr?id=2444182835820350&ev=PageView
+            &noscript=1"/>
+            </noscript>
+            <!-- End Facebook Pixel Code -->
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-WFQ23G3"></script>    <script type="application/ld+json">
+                                {
+                                  "@context": "https://schema.org/", 
+                                  "@type": "BreadcrumbList",
+                                  "itemListElement": [{
+                                    "@type": "ListItem",
+                                    "position": "1",
+                                    "name": "Home","item": "https://www.codechef.com/"},{
+                                    "@type": "ListItem",
+                                    "position": "2",
+                                    "name": "IOI"}]
+                                }
+                                </script>  <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+    <title>IOI - International Olympiad In Informatics | CodeChef</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="programming, language, algorithm, contest, contester, Java, C#, Pascal, C, C++, python, ruby, caml, ocaml, perl, haskell, lisp, prolog, fortran, assembler, asembler, functional, online, judge, problem, problemset, ACM" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/jquery-popup-overlay/popupoverlay.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/css/modal.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/codechef_todo/css/todo_notification.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/nice_menus/nice_menus.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/custom_nice_menus.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/tableofcontents/tableofcontents.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/taxonomy_list/taxonomy_list.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/style.css?B" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/fbconnectstyle.css?B" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/new-style.css?v=4b00140bc1d8e525fdfdb70611572cae"/>
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/abessive/static-content.css?v=64f8be27fbff89e36655d450ed24dd2b"/>
+    <link type="text/css" rel="stylesheet" media="all"
+          href="/sites/all/themes/abessive/new-login-bar.css?v=dd37a2bdd7b778be12ba5aa58e7f429d"/>
+  <script type="text/javascript" src="/misc/jquery.js?B"></script>
+<script type="text/javascript" src="/misc/drupal.js?B"></script>
+<script type="text/javascript" src="/misc/jquery-popup-overlay/popupoverlay.js?B"></script>
+<script type="text/javascript" src="/em/libs/cryptojs/aes.js?B"></script>
+<script type="text/javascript" src="/em/libs/common/common.js?v=ffe5c638567311b5b31e51d94fe2c820?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_common_functions/js/localStorage.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_common_functions/js/keybinding.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_common_functions/js/codechefGenericModal.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_common_functions/codechef_common_functions.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/codechef_todo/js/todo_notification.js?v=a8253739a788cd63fcebab40380b636f?B"></script>
+<script type="text/javascript" src="/sites/all/modules/fbmod/js/fb_sdk.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/nice_menus/nice_menus.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/tableofcontents/jquery.scrollTo-min.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/tableofcontents/jquery.localscroll-min.js?B"></script>
+<script type="text/javascript" src="/sites/all/modules/tableofcontents/tableofcontents.js?B"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","username":null});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+</head>
+<body>
+<script>window.csrfToken = '20b687a60529d99925b828ab92873265a5858d19126d9a86ebc71366f0a87ff1';</script><!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TV5X2M"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) --><center>
+  <div class="header-container">
+    <div id="header" class="wrapper">
+      <div class="inner-wrapper">
+        <!-- Header -->
+        <div id="logo-floater" class="cols-2">
+          <a href="/" title=""><img src="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.svg" alt="CodeChef is a competitive programming community" id="logo" /><span></span></a>        </div>
+                <div class="cols-2">
+          <div id="custom-login">
+            <!--Hello <strong>Admin</strong>, Check your <strong><a href="">Account</a></strong> or <a href="/logout">Log Out</a>-->
+            <div id="user-bar"><form action="/ioi"  accept-charset="UTF-8" method="post" id="new-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="60" value="" class="form-text required new-input" placeholder="Username" tabIndex="1" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="128"  size="60"  class="form-text required new-input" placeholder="Password" tabIndex="2" />
+</div>
+<input type="hidden" name="csrfToken" id="edit-csrfToken" value="20b687a60529d99925b828ab92873265a5858d19126d9a86ebc71366f0a87ff1"  />
+<a href="/user/password" tabIndex="4">Forgot Password</a><input type="hidden" name="form_build_id" id="form-hkzeTBIwVm2EShfoflP8lvitR1o4JTEEBmcjyv6dgTg" value="form-hkzeTBIwVm2EShfoflP8lvitR1o4JTEEBmcjyv6dgTg"  />
+<input type="hidden" name="form_id" id="edit-new-login-form" value="new_login_form"  />
+<input type="submit" name="op" id="edit-submit" value="Login"  class="form-submit btn new-input-button" tabIndex="3" />
+
+</div></form>
+</div><div id="facebook-login"><script type="text/javascript">
+    String.prototype.capitalize = function() {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    };
+    disconnectOauth = function (event, account, username) {
+        if (event != undefined) {
+            event.preventDefault();
+        }
+        disconnect = () => {
+            clearUserCache();
+            $.ajax({
+                url: '/OAuth/' + account,
+                type: 'DELETE',
+                headers: {'x-csrf-token': window.csrfToken},
+                success: function () {
+                    window.location.reload();
+                },
+                error: function () {
+                    invokeGenericModal({
+                        areAllAllowed: true,
+                        message: "Couldn't complete your request. Please try again.",
+                        id: account + '-error-message'
+                    });
+                }
+            });
+        }
+        showDrupalConfirmBox(`Are you sure you want to disconnect ${account.capitalize()} account? <br /><br />
+            For hassle free login, please make sure you have
+            <a href='/users/${username}/edit#login_info' style='text-decoration: underline'> set a password</a>
+            before disconnecting.`,
+            disconnect
+        );
+    };
+
+    connectOauth = function (event, url) {
+        if (event != undefined) {
+            event.preventDefault();
+        }
+        clearUserCache();
+        cAjax({
+            url: url,
+            type: 'POST',
+            success: function (res) {
+                if (res.url) {
+                    window.location.href = res.url;
+                }
+            },
+            error: function (err) {
+                invokeGenericModal({
+                    areAllAllowed: true,
+                    message: err.message || "Couldn't complete your request. Please try again.",
+                    id: 'oauth-connect-error-message'
+                });
+            }
+        });
+    };
+</script>
+<div id="oauth-buttons" class="oauth-buttons-header">
+    <li>
+                <a
+                    class='icon-social oauth_button oauth_button-small connect'
+                    title='Signup/Login with Google'
+                    id='button_google' onclick = "connectOauth(event, '/OAuth/google')"
+                >
+                </a>
+            </li><li>
+                <a
+                    class='icon-social oauth_button oauth_button-small connect'
+                    title='Signup/Login with Github'
+                    id='button_github' onclick = "connectOauth(event, '/OAuth/github')"
+                >
+                </a>
+            </li><li>
+                <a
+                    class='icon-social oauth_button oauth_button-small connect'
+                    title='Signup/Login with Facebook'
+                    id='button_facebook' onclick = "connectOauth(event, '/fb/auth?src=ioi');"
+                >
+                </a>
+            </li></div>
+</div><div class='signup'><a href='/signup' class='new-input-button btn'>New User</a></div>                      </div>
+
+          <div id="block-nice_menus-1" class="block block-nice_menus block-header">
+  <div class="content">
+        <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li id="menu-302" class="menuparent menu-path-https--www.codechef.com-problems-school-itm_mediumnavmenuitm_campaignproblems_head"><a href="https://www.codechef.com/problems/school/?itm_medium=navmenu&amp;itm_campaign=problems_head" title="">PRACTICE &amp; LEARN</a><ul><li id="menu-5215" class="menu-path-https--www.codechef.com-ideitm_mediumnavmenuitm_campaignide"><a href="https://www.codechef.com/ide?itm_medium=navmenu&amp;itm_campaign=ide" title="">Code, Compile &amp; Run (IDE)</a></li>
+<li id="menu-10000" class="menu-path-https--unacademy.codechef.com-itm_mediumnavmenuitm_campaignlearncp"><a href="https://unacademy.codechef.com/?itm_medium=navmenu&amp;itm_campaign=learncp" title="">Learn CP</a></li>
+<li id="menu-9737" class="menu-path-https--www.codechef.com-AIMICPCitm_mediumnavmenuitm_campaignAIMICPC"><a href="https://www.codechef.com/AIMICPC?itm_medium=navmenu&amp;itm_campaign=AIMICPC" title="">AIM ICPC Learning Series</a></li>
+<li id="menu-9424" class="menu-path-https--www.codechef.com-LEARNDSA-itm_mediumnavmenuitm_campaignlearndsa"><a href="https://www.codechef.com/LEARNDSA/?itm_medium=navmenu&amp;itm_campaign=learndsa" title="">DSA Learning Series</a></li>
+<li id="menu-2602" class="menu-path-https--www.codechef.com-tags-problems-itm_mediumnavmenuitm_campaigntagsproblems"><a href="https://www.codechef.com/tags/problems/?itm_medium=navmenu&amp;itm_campaign=tagsproblems" title="">Search Problems by Tags</a></li>
+<li id="menu-303" class="menu-path-https--www.codechef.com-problems-school-itm_mediumnavmenuitm_campaignproblems"><a href="https://www.codechef.com/problems/school/?itm_medium=navmenu&amp;itm_campaign=problems" title="">Practice Problems by Difficulty Level</a></li>
+<li id="menu-305" class="menu-path-https--www.codechef.com-cptutorialsitm_mediumnavmenuitm_campaigncptutorials"><a href="https://www.codechef.com/cptutorials?itm_medium=navmenu&amp;itm_campaign=cptutorials" title="">CP Tutorials</a></li>
+<li id="menu-304" class="menu-path-https--www.codechef.com-wiki-itm_mediumnavmenuitm_campaignwiki"><a href="https://www.codechef.com/wiki/?itm_medium=navmenu&amp;itm_campaign=wiki" title="">CodeChef Wiki</a></li>
+</ul>
+</li>
+<li id="menu-309" class="menuparent menu-path-https--www.codechef.com-contests-itm_mediumnavmenuitm_campaignallcontests_head"><a href="https://www.codechef.com/contests/?itm_medium=navmenu&amp;itm_campaign=allcontests_head" title="">COMPETE</a><ul><li id="menu-7494" class="menu-path-https--www.codechef.com-START6itm_campaignnavmenu"><a href="https://www.codechef.com/START6?itm_campaign=navmenu" title="">CodeChef Starters 6 (Rated for Div 3)</a></li>
+<li id="menu-9893" class="menu-path-https--www.codechef.com-START7-itm_mediumnavmenuitm_campaignSTART7"><a href="https://www.codechef.com/START7/?itm_medium=navmenu&amp;itm_campaign=START7" title="">CodeChef Starters 7 (Rated for Div 3)</a></li>
+<li id="menu-5679" class="menu-path-https--www.codechef.com-COOK131-itm_mediumnavmenuitm_campaignCOOK131"><a href="https://www.codechef.com/COOK131/?itm_medium=navmenu&amp;itm_campaign=COOK131" title="">July Cook-Off 2021</a></li>
+<li id="menu-6466" class="menu-path-https--www.codechef.com-LTIME98-itm_mediumnavmenuitm_campaignLTIME98"><a href="https://www.codechef.com/LTIME98/?itm_medium=navmenu&amp;itm_campaign=LTIME98" title="">July Lunchtime 2021</a></li>
+<li id="menu-5225" class="menu-path-https--www.codechef.com-JULY21-itm_mediumnavmenuitm_campaignJULY21"><a href="https://www.codechef.com/JULY21/?itm_medium=navmenu&amp;itm_campaign=JULY21" title="">July Challenge 2021 (Rated for Div 3)</a></li>
+<li id="menu-2203" class="menu-path-https--www.codechef.com-contests-itm_mediumnavmenuitm_campaignallcontests#present-contests"><a href="https://www.codechef.com/contests/?itm_medium=navmenu&amp;itm_campaign=allcontests#present-contests" title="">All Running Contests</a></li>
+<li id="menu-5224" class="menu-path-https--www.codechef.com-contests-itm_mediumnavmenuitm_campaignallcontests#future-contests"><a href="https://www.codechef.com/contests/?itm_medium=navmenu&amp;itm_campaign=allcontests#future-contests" title="">All Future Contests</a></li>
+<li id="menu-6868" class="menu-path-https--www.codechef.com-contests-itm_mediumnavmenuitm_campaignallcontests#past-contests"><a href="https://www.codechef.com/contests/?itm_medium=navmenu&amp;itm_campaign=allcontests#past-contests" title="">All Past Contests</a></li>
+<li id="menu-1820" class="menu-path-https--www.codechef.com-event-calendar-itm_mediumnavmenuitm_campaigncalendar"><a href="https://www.codechef.com/event-calendar/?itm_medium=navmenu&amp;itm_campaign=calendar" title="Event Calendar">Contest Calendar</a></li>
+<li id="menu-6689" class="menu-path-https--www.codechef.com-ratings-divisions-itm_mediumnavmenuitm_campaigndivisions"><a href="https://www.codechef.com/ratings/divisions/?itm_medium=navmenu&amp;itm_campaign=divisions" title="Rating Divisions">Contest Divisions</a></li>
+</ul>
+</li>
+<li id="menu-138" class="menuparent menu-path-https--discuss.codechef.com-itm_mediumnavmenuitm_campaigndiscuss_head"><a href="https://discuss.codechef.com/?itm_medium=navmenu&amp;itm_campaign=discuss_head" title="">DISCUSS</a><ul><li id="menu-139" class="menu-path-https--discuss.codechef.com-itm_mediumnavmenuitm_campaigndiscuss"><a href="https://discuss.codechef.com/?itm_medium=navmenu&amp;itm_campaign=discuss" title="">Discussion Forum</a></li>
+<li id="menu-140" class="menu-path-https--blog.codechef.com-itm_mediumnavmenuitm_campaignblog"><a href="https://blog.codechef.com/?itm_medium=navmenu&amp;itm_campaign=blog" title="">CodeChef Blog</a></li>
+<li id="menu-9894" class="menu-path-https--www.codechef.com-conversations-championsitm_mediumnavmenuitm_campaignconversations"><a href="https://www.codechef.com/conversations/champions?itm_medium=navmenu&amp;itm_campaign=conversations" title="">Weekends With Champions</a></li>
+<li id="menu-9517" class="menu-path-https--www.codechef.com-conversationsitm_mediumnavmenuitm_campaignconversations"><a href="https://www.codechef.com/conversations?itm_medium=navmenu&amp;itm_campaign=conversations" title="">Conversations with CodeChef</a></li>
+<li id="menu-2202" class="menu-path-https--www.facebook.com-CodeChef-groups-itm_mediumnavmenuitm_campaignfbgroups"><a href="https://www.facebook.com/CodeChef/groups/?itm_medium=navmenu&amp;itm_campaign=fbgroups" title="">Our Facebook Communities</a></li>
+</ul>
+</li>
+<li id="menu-143" class="menuparent menu-path-https--www.codechef.com-#"><a href="https://www.codechef.com/#" title="">OUR INITIATIVES</a><ul><li id="menu-715" class="menu-path-https--www.codechef.com-monthly-programming-contests-itm_mediumnavmenuitm_campaignmonthlycontests"><a href="https://www.codechef.com/monthly-programming-contests/?itm_medium=navmenu&amp;itm_campaign=monthlycontests" title="Programming Contests">Monthly Contests</a></li>
+<li id="menu-733" class="menu-path-https--www.codechef.com-hostyourcontest-itm_mediumnavmenuitm_campaignhyc"><a href="https://www.codechef.com/hostyourcontest/?itm_medium=navmenu&amp;itm_campaign=hyc" title="Hosting Contest on CodeChef">Host your Contest</a></li>
+<li id="menu-650" class="menu-path-https--www.codechef.com-certification-data-structures-and-algorithms-about-itm_mediumnavmenuitm_campaigncertification"><a href="https://www.codechef.com/certification/data-structures-and-algorithms/about/?itm_medium=navmenu&amp;itm_campaign=certification" title="">CodeChef Certification</a></li>
+<li id="menu-5741" class="menu-path-https--www.codechef.com-school-itm_mediumnavmenuitm_campaignschool"><a href="https://www.codechef.com/school/?itm_medium=navmenu&amp;itm_campaign=school" title="">CodeChef for Schools</a></li>
+<li id="menu-3830" class="menu-path-https--www.codechef.com-college-chapters-itm_mediumnavmenuitm_campaigncampuschapters"><a href="https://www.codechef.com/college-chapters/?itm_medium=navmenu&amp;itm_campaign=campuschapters" title="">College Chapters</a></li>
+<li id="menu-1371" class="menu-path-https--www.facebook.com-groups-womenincp-itm_mediumnavmenuitm_campaignwicp"><a href="https://www.facebook.com/groups/womenincp/?itm_medium=navmenu&amp;itm_campaign=wicp" title="">Women In Competitive Programming</a></li>
+<li id="menu-2310" class="menu-path-https--www.codechef.com-goforgold-itm_mediumnavmenuitm_campaigngoforgold"><a href="https://www.codechef.com/goforgold/?itm_medium=navmenu&amp;itm_campaign=goforgold" title="">Go for Gold</a></li>
+<li id="menu-5866" class="menu-path-https--www.codechef.com-snackdown-itm_mediumnavmenuitm_campaignsnackdown"><a href="https://www.codechef.com/snackdown/?itm_medium=navmenu&amp;itm_campaign=snackdown" title="">SnackDown</a></li>
+</ul>
+</li>
+<li id="menu-147" class="menuparent menu-path-https--www.codechef.com-corporates"><a href="https://www.codechef.com/corporates" title="">ASSOCIATE WITH US</a><ul><li id="menu-146" class="menu-path-https--www.codechef.com-corporatesitm_mediumnavmenuitm_campaignbusiness"><a href="https://www.codechef.com/corporates?itm_medium=navmenu&amp;itm_campaign=business" title="">Business Partnerships</a></li>
+<li id="menu-5824" class="menu-path-https--www.codechef.com-volunteer-itm_mediumnavmenuitm_campaignvolunteer"><a href="https://www.codechef.com/volunteer/?itm_medium=navmenu&amp;itm_campaign=volunteer" title="">Volunteer with Us</a></li>
+<li id="menu-1389" class="menu-path-https--www.codechef.com-problemsetting-itm_mediumnavmenuitm_campaignproblemsetting"><a href="https://www.codechef.com/problemsetting/?itm_medium=navmenu&amp;itm_campaign=problemsetting" title="Codechef Problem Creation">Become a Problem Setter</a></li>
+<li id="menu-9149" class="menu-path-https--www.codechef.com-careers-itm_mediumnavmenuitm_campaigncareers"><a href="https://www.codechef.com/careers/?itm_medium=navmenu&amp;itm_campaign=careers" title="">Careers Opportunities</a></li>
+<li id="menu-850" class="menu-path-https--www.codechef.com-contactus-itm_mediumnavmenuitm_campaigncontactus"><a href="https://www.codechef.com/contactus/?itm_medium=navmenu&amp;itm_campaign=contactus" title="">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-5681" class="menuparent menu-path-https--www.codechef.com-ratings-all"><a href="https://www.codechef.com/ratings/all" title="">MORE</a><ul><li id="menu-708" class="menu-path-https--www.codechef.com-ratings-all-itm_mediumnavmenuitm_campaignratings"><a href="https://www.codechef.com/ratings/all/?itm_medium=navmenu&amp;itm_campaign=ratings" title="">CodeChef Ratings</a></li>
+<li id="menu-6030" class="menu-path-https--goodies.codechef.com-itm_mediumnavmenuitm_campaigngoodies"><a href="https://goodies.codechef.com/?itm_medium=navmenu&amp;itm_campaign=goodies" title="">CodeChef Goodies</a></li>
+<li id="menu-1858" class="menu-path-https--www.codechef.com-workshops-itm_mediumnavmenuitm_campaignworkshops"><a href="https://www.codechef.com/workshops/?itm_medium=navmenu&amp;itm_campaign=workshops" title="">CodeChef Workshops</a></li>
+<li id="menu-826" class="menu-path-https--www.codechef.com-icpc-itm_mediumnavmenuitm_campaignicpc"><a href="https://www.codechef.com/icpc/?itm_medium=navmenu&amp;itm_campaign=icpc" title="">ICPC</a></li>
+<li id="menu-2372" class="menu-path-https--www.codechef.com-ioi-itm_mediumnavmenuitm_campaignioi"><a href="https://www.codechef.com/ioi/?itm_medium=navmenu&amp;itm_campaign=ioi" title="">IOI</a></li>
+<li id="menu-643" class="menu-path-https--www.codechef.com-wiki-faq-itm_mediumnavmenuitm_campaignfaq"><a href="https://www.codechef.com/wiki/faq/?itm_medium=navmenu&amp;itm_campaign=faq" title="">Frequently Asked Questions</a></li>
+<li id="menu-151" class="menu-path-https--www.codechef.com-aboutus-itm_mediumnavmenuitm_campaignaboutus"><a href="https://www.codechef.com/aboutus/?itm_medium=navmenu&amp;itm_campaign=aboutus" title="">About Us</a></li>
+</ul>
+</li>
+</ul>
+  </div>
+</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- /HEADER -->
+  <center>
+    <table cellspacing="0" cellpadding="10" id="maintable" class="maintable">
+      <tr>
+        <td class="content" width="99%">
+          <div class="c4s_wrapper-in-new">
+            <div class="c4s_content">
+              <div class="c4s_content-in-new">
+                <div id='breadcrumb'><div class='breadcrumb'><a href='/'>Home</a>&nbsp;»&nbsp;IOI</div></div>                                                                <div class="ns-content">
+                 <div class="ns-top ns-content-width clearfix">
+                   <div class="ns-heading">
+                       <h1 style="font-size: inherit;
+                        font-weight: inherit;
+                        font-family: inherit;
+                        color: inherit;
+                        border: inherit;
+                        margin: inherit;
+                        padding: inherit;"
+                       >
+                           International Olympiad in Informatics                       </h1>
+                   </div>
+                 </div>
+                 <div class="ns-content-width clearfix"><div id="node-9718201" class="node clear-block">
+
+  <div class="meta">
+  
+    </div>
+
+  <div class="content">
+	<div class="setpage-topbox">
+<div class="static-top-nav-hyc"><a href="/ioi/2021/registration">ICO 2021<sup>New!</sup></a></div>
+<div class="static-top-nav-hyc"><a href="/ioi/2021/learn">Learning Program</a></div>
+<div class="static-top-nav-hyc"><a href="/ioi/prepare">Prepare</a></div>
+</div>
+<h2>About</h2>
+<p>Started in May 1989 by UNESCO, the <a target="_blank" href="http://www.ioinformatics.org/">International Olympiad in Informatics (IOI)</a> is one of the five International Science Olympiads organized around the world. The primary aim of the contest was to stimulate the interest of middle and high school students in informatics and information technology. The informatics olympiad also brought the pupils from different countries to one podium to share cultural and academic experiences.</p>
+<p><a href="http://www.ioinformatics.org/" target="_blank"> </a></p>
+<h2>IOI Contest Structure</h2>
+<p><a href="http://www.ioinformatics.org/" target="_blank"> </a>
+</p><p>The IOI competition comprises several tasks (problems). All the problems in the contest are algorithmic in nature. However, the students also need to have other skills like problem analysis, data structures, design of algorithms, programming, and testing to solve those problems.</p>
+<p>There will be two competition days. On each day, contestants will be given three tasks to complete in five hours. Students have to write the solutions to the problems in C++ and submit it within the 5-hour duration of the contest.</p>
+<a href="http://www.ioinformatics.org/" target="_blank"> </a>
+<h2 class="list-style-disc">IOI Contest Eligibility</h2>
+<ul>
+<li>All students who are enrolled in a school in the current academic year, regardless of the board and school they are studying in.</li>
+<li>Students should not be older than 20 years on the 1st of July of the year of the IOI they appear for. There is no lower age limit for participation.</li>
+<a href="http://www.ioinformatics.org/" target="_blank"> </a>
+</ul>
+<a href="http://www.ioinformatics.org/" target="_blank"> </a>
+<h2>Awards to be won</h2>
+<p>At the felicitation ceremony, after the contest, the participants are awarded medals based on their performance in the competition. The medals are awarded to the top 50% of the participants, in a way that the ratio of gold: silver: bronze: no medal is around 1:2:3:6 (thus around 1/12 of the participants get a gold medal). Unlike all the other science Olympiads, the IOI prohibits ranking by countries.</p>
+<h2>Indian Computing Olympiad - Road to IOI for Indian students</h2>
+<p><img alt="IOI - International Olympiad In Informatics" src="/download/infographic-ioi-page.png" /></p>
+<a href="http://www.ioinformatics.org/" target="_blank"> </a>
+<p> </p>
+<p>The 4 students to represent India at the IOI are selected through the <strong>Indian Computing Olympiad (ICO)</strong>. The first ICO was organized in 2002; however, it got its name in 2006. The <a target="_blank" href="http://www.iarcs.org.in/">Indian Association for Research in Computing Science</a>(IARCS) organizes the ICO. The contest is held in three stages, namely:</p>
+<h3>Zonal Informatics Olympiad (ZIO) &amp; Zonal Computing Olympiad (ZCO):</h3>
+<p>The Zonal Informatics Olympiad is the first step towards the IOI world finals. It is an offline written test in which you are not required to write code in a programming language. However, there also is an online variant of it known as the Zonal Computing Olympiad (ZCO), which is an online programming contest. Most of the questions in these contests involve algorithmic techniques; however, even logic is sufficient to get you through this first round.</p>
+<p>Students have to pay nominal fees of approx Rs.400 towards the registration process. Students have to register online on the IARCS website. The contest is held in the month of November/December every year. Around 250 students from all the participants are selected for the next round. You can appear in any one of the exams, ZIO, or ZCO and be eligible for selection to the next round.</p>
+<h3>Indian National Olympiad in Informatics (INOI):</h3>
+<p>Students qualifying the ZCO or ZIO (whichever you take up) move on to the second round of the competition, the INOI. It is a programming competition. The questions here are similar to the ones that students will be subjected to at the Zonal Computing Olympiad, but of an advanced level. Students have to solve two algorithmic problems in three hours. The students can write their programs in either C++. The contest is held at various centres across India.</p>
+<h3>International Olympiad in Informatics Training Camp:</h3>
+<p>Based on their results in INOI, 30 students are selected to take part in the International Olympiad in Informatics Training Camp. Organized by the Indian Association for Research in Computing Science, the IOI training camp is held in the month of May at the Chennai Mathematical Institute(CMI) for selecting the final 4 students to represent India. This training camp, in general, is for ten days. It is the final chance for the selected 30 students to sharpen their programming talents, before putting them to test at the world finals.</p>
+<p>The students train under the guidance of Prof. Madhavan Mukund of the Chennai Mathematical Institute, former President and Member of, Executive Council, Indian Association for Research in Computing Science (IARCS). Along with Prof. Madhavan, students who have previously appeared in competitions like IOI and ICPC provide rigorous training to the students at this camp to ensure that the students are well prepared for the World Finals.</p>
+<p>Details about ICO (Indian Computing Olympiad) and IOI Indian team are announced on: <a href="http://www.iarcs.org.in/inoi/" target="_blank">http://www.iarcs.org/inoi</a></p>
+<h2>Syllabus</h2>
+<p>The latest syllabus of IOI can be found <a href="https://ioinformatics.org/page/syllabus/12">here.</a></p>
+<h2>Venue</h2>
+<p>The IOI world final is hosted by any of the <a href="https://ioinformatics.org/page/members/7" target="_blank">91 countries and regions</a> presently registered with the International Olympiad in Informatics. However, every participating country hosts their own prelims to select the students representing them at the world finals. Every participating country sends a delegation of 4 students and 2 adults, accompanying them as a coach or mentor. The two-day long contest sees students competing individually by solving a set of informatics problems. The contest is followed by some cultural and recreational events organized on the remaining days.</p>
+<h2>Go For Gold</h2>
+<p>CodeChef has extended its coveted <a href="/goforgold" target="_blank">Go for Gold</a> program to Indian Middle/High School students. The program is planned to serve as a motivation to the school students to do well in programming and eventually win a Gold medal at the International Olympiads in Informatics. The details of the program can be read <a href="/school/goforgold" target="_blank">here</a>.</p>  </div>
+
+  </div>
+</div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </td>
+     </tr>
+   </table>
+</center>
+</center>
+<footer id="cc-footer-div">
+    <style>
+    .center-desc {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 11px !important;
+    }
+
+    #cc-footer-div {
+        background: #fff;
+        border-top: 2px solid #cbcbcb;
+        padding-top: 55px;
+        font-family: Arial, sans-serif !important;
+        text-align: left !important;
+    }
+
+    .horizontal-list {
+        display: flex;
+        margin-left: 0 !important;
+        padding: 0px !important;
+        margin-bottom: 20px;
+    }
+
+    .horizontal-list li {
+        list-style: none;
+        font-size: 11px !important;
+        padding: 0px 5px 0px 0px !important;
+        height: 12px !important;
+    }
+
+    .horizontal-list li a {
+        color: #4a4a4a !important;
+        font-size: 11px !important;
+        text-decoration: underline;
+    }
+
+    .horizontal-list li a:hover {
+        text-decoration: underline !important;
+    }
+
+    .li-hr {
+        height: 11px;
+        width: 1px;
+        background: #4a4a4a;
+        display: block;
+        align-self: center;
+        margin-right: 5px;
+        position: relative;
+        top: 0.2em;
+    }
+
+    .footer-row {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 950px;
+    }
+
+    .flex-row-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-row-footer p {
+        font-size: 11px !important;
+        color: #4a4a4a !important;
+        margin-bottom: 5px !important;
+    }
+
+    .flex-row-footer p a {
+        color: #4a4a4a !important;
+        text-decoration: underline !important;
+    }
+
+    .flex-row-footer p a:hover {
+        text-decoration: underline !important;
+    }
+
+    .flex-row-footer span {
+        color: #4a4a4a !important;
+        font-size: 11px !important;
+    }
+
+    .footer-uniq-div {
+        color: #4a4a4a !important;
+        font-size: 11px !important;
+        text-align: right;
+    }
+
+    .para-div {
+        margin: 10px 0 0 0 !important;
+    }
+
+    .para-div article .footer-heading {
+        font-weight: 700 !important;
+        font-size: 13px !important;
+        color: #666 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .para-div article .footer-heading a {
+        text-decoration: underline !important;
+        color: #666 !important;
+    }
+
+    .para-div article h6 a:hover {
+        text-decoration: underline !important;
+    }
+
+    .para-div article p {
+        font-size: 12px !important;
+        color: #777 !important;
+        text-align: justify !important;
+        margin-bottom: 5px;
+        line-height: 1.6 !important;
+    }
+
+    .footer-flex-list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px !important;
+        width: 795px;
+    }
+
+    .footer-flex-list .footer-list-heading {
+        font-size: 13px !important;
+        font-weight: 700 !important;
+        text-decoration: underline !important;
+        color: #777 !important;
+    }
+
+    .inner-footer-div ul li {
+        list-style: none !important;
+        line-height: 25px !important;
+        padding: 0 !important;
+    }
+
+    .inner-footer-div li a {
+        list-style: none !important;
+        font-size: 12px !important;
+        color: #666 !important;
+        padding: 0 0 5px 0 !important;
+        text-decoration: underline !important;
+    }
+
+    .inner-footer-div li a:hover {
+        text-decoration: underline !important;
+    }
+
+    .inner-footer-div ul {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .inner-footer-div {
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+</style>
+
+<script language="javascript" type="text/javascript">
+    function savedServerOffset(ts) {
+        ts = ts * 1000;
+        now = Date.now();
+        offset = now - ts;
+        return offset;
+    }
+
+    function formatTime(offset) {
+        ts = Date.now() - offset;
+        now = new Date(ts);
+        localtime = new Date();
+        hour = now.getHours();
+        min = now.getMinutes();
+        sec = now.getSeconds();
+
+        if (min <= 9) {
+            min = "0" + min;
+        }
+        if (sec <= 9) {
+            sec = "0" + sec;
+        }
+        if (hour > 12) {
+            hour = hour - 12;
+            add = " PM";
+        } else {
+            hour = hour;
+            add = " AM";
+        }
+        if (hour == 12) {
+            add = " PM";
+        }
+        if (hour == 00) {
+            hour = "12";
+        }
+
+        $('#server-time').html(((hour <= 9) ? "0" + hour : hour) + ":" + min + ":" + sec + add);
+
+        nextSec = (now.getTime() + 1000);
+
+        setTimeout("formatTime(" + offset + ")", 1000);
+    }
+
+    function getDtTimeZone() {
+        var rightNow = new Date();
+        var toDay = new Date(rightNow.getFullYear(), 0, 1, 0, 0, 0, 0);
+        var temp = toDay.toGMTString();
+        var date2 = new Date(temp.substring(0, temp.lastIndexOf(" ") - 1));
+        var stdTime = (toDay - date2) / (1000 * 60 * 60);
+        return stdTime;
+    }
+
+</script>
+<div class="footer-row">
+    <p class="center-desc"><u>CodeChef is a competitive programming community</u></p>
+</div>
+<div class="footer-row flex-row-footer">
+    <div>
+        <ul class="horizontal-list">
+            <li><a href="/aboutus/">About CodeChef</a></li>
+            <div class="li-hr"></div>
+            <li><a href="/contactus">Contact Us</a></li>
+        </ul>
+        <p>CodeChef uses SPOJ &copy; by <a href="https://www.sphere-research.com" target="_blank">Sphere Research
+                Labs</a><br>In order to report copyright violations of any kind, send in an email to <a
+                    href="mailto:copyright@codechef.com">copyright@codechef.com</a></p>
+    </div>
+
+    <div>
+        <div class="footer-uniq-div">The time now is: <span id="server-time"></span><br/>
+            <span>Your IP: <span>34.243.145.4</span></span>
+            <script language='javascript'>formatTime(savedServerOffset('1626611706'));</script>        </div>
+    </div>
+</div>
+<div class="footer-row">
+    <div class="para-div">
+        <article>
+            <p class="footer-heading"><a href="/">CodeChef</a> - A Platform for Aspiring Programmers</p>
+            <p>CodeChef was created as a platform to help programmers make it big in the world of
+                <strong>algorithms</strong>, <strong>computer programming</strong>, and <strong>programming
+                    contests</strong>. At CodeChef we work hard to revive the geek in you by hosting a <strong>
+                    programming
+                    contest</strong> at the start of the month and two smaller programming challenges at the middle and
+                end of the month. We also aim to have training sessions and discussions related to
+                <strong>algorithms</strong>, <strong>binary search</strong>, technicalities like <strong>array
+                    size</strong> and the likes. Apart from providing a platform for <strong>programming
+                    competitions</strong>, CodeChef also has various algorithm tutorials and forum discussions to help
+                those who are new to the world of <strong>computer programming</strong>.</p>
+        </article>
+
+        <article>
+            <p class="footer-heading"><a href="/problems/easy">Practice Section</a>
+                - A Place to hone your 'Computer Programming Skills'</p>
+            <p>Try your hand at one of our many practice problems and submit your solution in the language of your
+                choice. Our <strong>programming contest</strong> judge accepts solutions in over 55+ programming
+                languages. Preparing for coding contests were never this much fun! Receive points, and move up through
+                the CodeChef ranks. Use our practice section to better prepare yourself for the multiple <strong>programming
+                    challenges</strong> that take place through-out the month on CodeChef.</p>
+        </article>
+
+        <article>
+            <p class="footer-heading"><a href="/contests">Compete</a> - Monthly Programming Contests, Cook-off and Lunchtime</p>
+            <p>Here is where you can show off your <strong>computer programming skills</strong>. Take part in our 10
+                days long monthly coding contest and the shorter format Cook-off and Lunchtime <strong>coding
+                    contests</strong>. Put yourself up for recognition and win great prizes. Our <strong>programming
+                    contests</strong> have prizes worth up to INR 20,000 (for Indian Community), $700 (for Global
+                Community) and lots more CodeChef goodies up for grabs.</p>
+        </article>
+    </div>
+</div>
+
+<div class="footer-row">
+    <div class="footer-flex-list">
+        <div class="inner-footer-div">
+            <p class="footer-list-heading">Programming Tools</p>
+            <ul>
+                <li><a href="/ide">Online IDE</a></li>
+                <li><a href="/contests#future-contests">Upcoming Coding Contests</a></li>
+                <li><a href="/hostyourcontest">Contest Hosting</a></li>
+                <li><a href="/problemsetting">Problem Setting</a></li>
+                <li><a href="/wiki/tutorials">CodeChef Tutorials</a></li>
+                <li><a href="/wiki">CodeChef Wiki</a></li>
+            </ul>
+        </div>
+
+        <div class="inner-footer-div">
+            <p class="footer-list-heading">Practice Problems</p>
+            <ul>
+                <li><a href="/problems/easy">Easy</a></li>
+                <li><a href="/problems/medium">Medium</a></li>
+                <li><a href="/problems/hard">Hard</a></li>
+                <li><a href="/problems/challenge">Challenge</a></li>
+                <li><a href="/problems/extcontest">Peer</a></li>
+                <li><a href="/problems/school">School</a></li>
+                <li><a href="/wiki/faq">FAQ's</a></li>
+            </ul>
+        </div>
+
+        <div class="inner-footer-div">
+            <p class="footer-list-heading">Initiatives</p>
+            <ul>
+                <li><a href="/goforgold">Go for Gold</a></li>
+                <li><a href="/school">CodeChef for Schools</a></li>
+                <li><a href="/college-chapters">College Chapters</a></li>
+                <li><a href="https://business.codechef.com">CodeChef for Business</a></li>
+            </ul>
+        </div>
+
+        <div class="inner-footer-div">
+            <p class="footer-list-heading">Policy</p>
+            <ul>
+                <li><a href="/terms">Terms of Service</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/refund-policy">Refund Policy</a></li>
+                <li><a href="/codeofconduct">Code of Conduct</a></li>
+                <li><a href="/bug-bounty-program">Bug Bounty Program</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script id='_webengage_script_tag' type='text/javascript'>
+    var webengage;!function(w,e,b,n,g){function o(e,t){e[t[t.length-1]]=function(){r.__queue.push([t.join("."),
+        arguments])}}var i,s,r=w[b],z=" ",l="init options track screen onReady".split(z),a="feedback survey notification".split(z),c="options render clear abort".split(z),p="Open Close Submit Complete View Click".split(z),u="identify login logout setAttribute".split(z);if(!r||!r.__v){for(w[b]=r={__queue:[],__v:"6.0",user:{}},i=0;i < l.length;i++)o(r,[l[i]]);for(i=0;i < a.length;i++){for(r[a[i]]={},s=0;s < c.length;s++)o(r[a[i]],[a[i],c[s]]);for(s=0;s < p.length;s++)o(r[a[i]],[a[i],"on"+p[s]])}for(i=0;i < u.length;i++)o(r.user,["user",u[i]]);setTimeout(function(){var f=e.createElement("script"),d=e.getElementById("_webengage_script_tag");f.type="text/javascript",f.async=!0,f.src=("https:"==e.location.protocol?"https://ssl.widgets.webengage.com":"http://cdn.widgets.webengage.com")+"/js/webengage-min-v-6.0.js",d.parentNode.insertBefore(f,d)})}}(window,document,"webengage");webengage.init("~7168057d");
+</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-53602-42']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '460995904241257');
+    fbq('track', 'PageView');
+
+</script>
+<noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=460995904241257&ev=PageView
+   &noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Linkedin Code -->
+<script type="text/javascript">
+    _linkedin_data_partner_id = "93463";
+
+</script>
+<script type="text/javascript">
+    (function () {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt=""
+               src="https://dc.ads.linkedin.com/collect/?pid=93463&fmt=gif"/></noscript>
+<!-- Linkedin Code End -->
+</footer>
+<script type="text/javascript">
+            _linkedin_data_partner_id = "93463";
+            </script><script type="text/javascript">
+            (function(){var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);})();
+        </script>
+        <noscript>
+            <img height="1" width="1" style="display:none;" alt=""
+                src="https://dc.ads.linkedin.com/collect/?pid=93463&fmt=gif" />
+        </noscript>
+<script>
+            $(document).ready(function(){
+                let cookie_name = "i-love-cookies";
+                show_hide_cookie_notification(cookie_name);
+                $("#gdpr-i-love-cookies").click(function() {
+                    cCookie(cookie_name, "yes", {expires: 30, path: "/", secure: true});
+                    show_hide_cookie_notification(cookie_name);
+                });
+
+                function show_hide_cookie_notification(cookie_name) {
+                    let value = cCookie(cookie_name);
+                    if (value === "yes") {
+                      $("#gdpr-cookie-notif").fadeOut();
+                    } else {
+                      $("#gdpr-cookie-notif").fadeIn();
+                    }
+                }
+            });
+        </script><div id="gdpr-cookie-notif" class="global--announcement" style="display: none;">
+    <div class="global--announcement__content">
+      <p>
+        We use cookies to improve your experience and for analytical purposes.
+        Read our <a href="/privacy-policy">Privacy Policy</a>
+        and <a href="/terms">Terms</a> to know more.
+        You consent to our cookies if you continue to use our website.
+      </p>
+    </div>
+    <div class="global--announcement__action">
+      <button id="gdpr-i-love-cookies" class="button grey tiny">Okay</button>
+    </div>
+  </div></body>
+</html>
